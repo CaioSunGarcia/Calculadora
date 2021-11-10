@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+input{
+    font-weight: 500;
+    padding: 17px;
+    outline: none;
+    font-size: 20px;
+    color:#FFF;
+    cursor: pointer;
+    background-color: #000;
+    border: none;
+}
+
+
+            /*===== VISOR DE CÁLCULOS =====*/
+.text{
+    width: 230px;
+    height: 60px;
+    margin: 4px 0px;
+    letter-spacing: 2px;
+    cursor: default
+}
+
+
+            /*===== BOTÃO CLEAR =====*/
+.clear{
+
+    color: #000;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background-color: #CFCFCF;
+}
+
+.clear:hover{
+    background-color: #E8E8E8;
+}
+
+
+            /*===== NÚMEROS =====*/
+.num{
+    background-color: #1c1c1c;
+    color:#FFF;
+    border: none;
+    font-size: 25px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.num:hover{
+    background-color: #363636;
+}
+
+
+            /*===== BOTÃO DE OPRADORES =====*/
+.btn-operator{
+    background-color: #EE9A00;
+    color: white;
+}
+
+.btn-operator:hover{
+    background-color: #FFA500;
+}
